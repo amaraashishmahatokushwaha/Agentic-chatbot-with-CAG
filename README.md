@@ -1,14 +1,22 @@
 **AGENTIC CHATBOT WITH CAG**
 
 A Python-based offline AI assistant with Cache-Augmented Generation (CAG), weather forecasting, route planning, and voice input/output capabilities. Built using llama3.2:3b (via Ollama), OpenWeatherMap, OpenRouteService, and spaCy, it supports document-based queries, weather updates, and navigation directions, with a Tkinter GUI.
+
 **Features**
 -Cache-Augmented Generation (CAG): Preload documents (PDF, DOCX, TXT) to answer queries using stored document chunks, with KV cache for efficiency.
+
 -Weather Forecasts: Fetch real-time weather and forecasts using OpenWeatherMap API.
+
 -Route Planning: Calculate driving routes and distances using OpenRouteService API.
+
 -Voice Interaction: Supports voice input (wake word: "Jarvis") and text-to-speech output using speech_recognition and gTTS.
+
 -Mood Detection: Integrates facial emotion detection (requires main.py with relevant code).
+
 -Qdrant Integration: Stores past interactions for context (requires Qdrant setup).
+
 -Local LLM: Uses llama3.2:3b via Ollama for offline query processing.
+
 
 
 **Setup**
