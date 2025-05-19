@@ -24,7 +24,8 @@ A Python-based offline AI assistant with Cache-Augmented Generation (CAG), weath
 
 Clone the Repository:
 
-git clone https://github.com/<your-username>/llama3_assistant.git
+[Agentic Chatbot with CAG](https://github.com/amaraashishmahatokushwaha/Agentic-chatbot-with-CAG "GitHub Repository for Agentic Chatbot with CAG")
+
 
 cd llama3_assistant
 
